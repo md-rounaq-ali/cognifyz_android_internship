@@ -1,36 +1,40 @@
-# Task 7 – Basic Database Usage
-**Cognifyz IT Solutions Pvt. Ltd. | Android Development Internship**
-**Intern:** Md Rounaq Ali | **Ref:** CTI/A1/C361826 | **Level:** 4 – Expert
+# SQLite CRUD Application
+
+A local database Flutter application implementing full Create, Read, Update, and Delete operations using SQLite. Developed as part of the Android Development portfolio.
+
+## ✨ Features
+
+- **Singleton Database Helper:** Manages SQLite initialization, connection pooling, and versioning safely.
+- **Full CRUD Support:** Executes asynchronous SQL statements to manipulate user records.
+- **Bottom Sheet Forms:** Clean, modal-based UI for data entry without leaving the main context.
+- **Destructive Action Safeguards:** Requires explicit user confirmation via dialogs before deleting records.
+- **Cross-Platform Database:** Fully configured to run seamlessly on Android, iOS, and Web (via `sqflite_common_ffi_web`).
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter
+- **Local Storage:** `sqflite`, `path`
+- **Web Support:** `sqflite_common_ffi_web`
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (v3.0.0 or higher)
+
+### Installation & Run
+
+1. Navigate to the project directory:
+   ```bash
+   cd task7_database_usage
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the application:
+   ```bash
+   flutter run
+   ```
 
 ---
-
-## 📋 Objective
-Integrate a simple SQLite database into the app.
-
-## ✅ Requirements Implemented
-- **`DatabaseHelper`** – Singleton class managing database creation and versioning
-- SQLite table **`users`** with columns: `id`, `name`, `email`, `role`, `created_at`
-- Full **CRUD operations:**
-  - `insertUser()` – INSERT
-  - `getAllUsers()` – SELECT with ORDER BY
-  - `deleteUser()` – DELETE by ID
-  - `updateUser()` – UPDATE by ID
-  - `getUserCount()` – COUNT query
-- Modal bottom sheet form for adding users with validation
-- Delete confirmation dialog before removing records
-- Real-time record count display in header
-
-## 🚀 How to Run
-```bash
-flutter run                  # Android device/emulator
-flutter run -d chrome        # Chrome browser (web)
-```
-> ⚠️ SQLite works natively on Android. On Chrome (web), sqflite uses an IndexedDB fallback.
-
-## 📦 Dependencies
-- `google_fonts` – Outfit font
-- `sqflite` – SQLite local database
-- `path` – Database file path resolution
-
----
-*Cognifyz IT Solutions Pvt. Ltd. | support@cognifyz.com | www.cognifyz.com*
+*Developed by Md Rounaq Ali.*

@@ -1,31 +1,42 @@
-# Task 8 – Implement Navigation
-**Cognifyz IT Solutions Pvt. Ltd. | Android Development Internship**
-**Intern:** Md Rounaq Ali | **Ref:** CTI/A1/C361826 | **Level:** 4 – Expert
+# Advanced Navigation Playground
+
+A Flutter application built to explore and implement custom route transitions and deep navigation stacks. Developed as part of the Android Development portfolio.
+
+## ✨ Features
+
+- **Custom Route Builders:** Bypasses default platform transitions in favor of custom `PageRouteBuilder` implementations.
+- **Multiple Transition Types:**
+  - `SlideTransition` (Left-to-Right push)
+  - `FadeTransition` (Opacity cross-fade)
+  - `ScaleTransition` (Zoom with elastic curves)
+  - `SlideTransition` (Bottom-up sheet style)
+- **Stack Management:** Safely manages the navigation stack using `Navigator.push` and `Navigator.pop`.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **Design System:** Material 3
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (v3.0.0 or higher)
+
+### Installation & Run
+
+1. Navigate to the project directory:
+   ```bash
+   cd task8_navigation
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the application:
+   ```bash
+   flutter run
+   ```
 
 ---
-
-## 📋 Objective
-Enhance the app with smooth navigation between screens.
-
-## ✅ Requirements Implemented
-- Implemented **navigation between multiple screens** using Flutter's `Navigator`
-- 4 custom transition animations (equivalent to Android Intent animations):
-  1. **Slide Right** – `SlideTransition` from `Offset(1.0, 0.0)` – classic push
-  2. **Fade** – `FadeTransition` – smooth opacity cross-fade
-  3. **Scale / Zoom** – `ScaleTransition` with `Curves.easeOutBack`
-  4. **Slide Up** – `SlideTransition` from `Offset(0.0, 1.0)` – bottom sheet style
-- **About screen** – navigated to via fade transition, shows intern profile
-- All screens have **back navigation** using `Navigator.pop()`
-- Smooth transition tested end-to-end for seamless user experience
-
-## 🚀 How to Run
-```bash
-flutter run                  # Android device/emulator
-flutter run -d chrome        # Chrome browser (web)
-```
-
-## 📦 Dependencies
-- `google_fonts` – Outfit font
-
----
-*Cognifyz IT Solutions Pvt. Ltd. | support@cognifyz.com | www.cognifyz.com*
+*Developed by Md Rounaq Ali.*
