@@ -1,40 +1,28 @@
-# Interactive Button Application
-
-A Flutter application showcasing state management, gesture detection, and micro-interactions. Developed as part of the Android Development portfolio.
-
-## ✨ Features
-
-- **Gesture Detection:** Implements `GestureDetector` for precise tap handling.
-- **State Management:** Tracks click counts and dynamically calculates points.
-- **Milestone System:** Triggers custom SnackBars when users reach specific click milestones.
-- **Haptic Feedback:** Provides tactile feedback on physical devices for every interaction.
-- **Progress Tracking:** Visual linear progress indicator bridging the gap to the next milestone.
-
-## 🛠️ Tech Stack
-
-- **Framework:** Flutter
-- **Language:** Dart
-- **Services:** `flutter/services` (HapticFeedback)
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK (v3.0.0 or higher)
-
-### Installation & Run
-
-1. Navigate to the project directory:
-   ```bash
-   cd task2_button_interaction
-   ```
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Run the application:
-   ```bash
-   flutter run
-   ```
+# Task 2 – Button Interaction
+**Cognifyz IT Solutions Pvt. Ltd. | Android Development Internship**
+**Intern:** Md Rounaq Ali | **Ref:** CTI/A1/C361826 | **Level:** 1 – Beginner
 
 ---
-*Developed by Md Rounaq Ali.*
+
+## 📋 Objective
+Enhance the app with interactive button functionality.
+
+## ✅ Requirements Implemented
+- Added a large interactive **Button** element (circular pulsing button)
+- Implemented a **click listener** (`GestureDetector.onTap`)
+- Displays a **Toast/SnackBar** message on every button click
+- Click counter and points tracker
+- Milestone SnackBars triggered at 1, 5, 10, 25, and 50 clicks
+- Progress bar showing distance to next milestone
+- Haptic feedback on every tap
+
+## 🚀 How to Run
+```bash
+flutter run                  # Android device/emulator
+```
+
+## 📦 Dependencies
+- `google_fonts` – Outfit font
+- `flutter/services` – HapticFeedback
+
+

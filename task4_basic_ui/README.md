@@ -1,39 +1,26 @@
-# Multi-Screen Dashboard UI
-
-A comprehensive Flutter application demonstrating complex UI layouts, multi-screen navigation, and responsive design structures. Developed as part of the Android Development portfolio.
-
-## ✨ Features
-
-- **Bottom Navigation:** Seamless tab-based routing between Home, Portfolio, and Stats views.
-- **Responsive Grid:** Utilizes cross-axis alignment and responsive grids for dashboard widgets.
-- **Data Visualization:** Animated progress bars and statistic cards.
-- **Modular Widgets:** Clean separation of concerns with isolated screen files and reusable UI components.
-
-## 🛠️ Tech Stack
-
-- **Framework:** Flutter
-- **Language:** Dart
-- **Design System:** Material 3
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK (v3.0.0 or higher)
-
-### Installation & Run
-
-1. Navigate to the project directory:
-   ```bash
-   cd task4_basic_ui
-   ```
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Run the application:
-   ```bash
-   flutter run
-   ```
+# Task 4 – Basic UI Layout
+**Cognifyz IT Solutions Pvt. Ltd. | Android Development Internship**
+**Intern:** Md Rounaq Ali | **Ref:** CTI/A1/C361826 | **Level:** 2 – Intermediate
 
 ---
-*Developed by Md Rounaq Ali.*
+
+## 📋 Objective
+Build an app with multiple activities and a basic UI layout.
+
+## ✅ Requirements Implemented
+- **Multiple activities** – 3 tabs: Home, Portfolio, Stats (separate widget classes)
+- Used Flutter's declarative layout (equivalent of XML layouts)
+- Arranged UI elements: buttons, text fields, grid cards, progress bars
+- Home tab: gradient hero banner + 2×2 quick access grid
+- Portfolio tab: full task completion checklist
+- Stats tab: stat boxes + animated level progress bars
+
+## 🚀 How to Run
+```bash
+flutter run                  # Android device/emulator
+```
+
+## 📦 Dependencies
+- `google_fonts` – Outfit font
+
+
